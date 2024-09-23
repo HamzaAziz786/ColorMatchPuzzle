@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 93566605}
   - component: {fileID: 93566604}
   - component: {fileID: 93566603}
+  - component: {fileID: 93566606}
   m_Layer: 0
   m_Name: White
   m_TagString: place
@@ -228,6 +229,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 93566601}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &93566606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 93566601}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: white
 --- !u!1 &194986344
 GameObject:
   m_ObjectHideFlags: 0
@@ -240,6 +255,7 @@ GameObject:
   - component: {fileID: 194986348}
   - component: {fileID: 194986347}
   - component: {fileID: 194986346}
+  - component: {fileID: 194986349}
   m_Layer: 0
   m_Name: White (1)
   m_TagString: place
@@ -334,6 +350,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 194986344}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &194986349
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 194986344}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: white
 --- !u!1 &205125472
 GameObject:
   m_ObjectHideFlags: 0
@@ -346,6 +376,7 @@ GameObject:
   - component: {fileID: 205125475}
   - component: {fileID: 205125474}
   - component: {fileID: 205125473}
+  - component: {fileID: 205125477}
   m_Layer: 0
   m_Name: B_White
   m_TagString: Player
@@ -439,6 +470,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &205125477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 205125472}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 726484225}
+  ballcolor: white
 --- !u!1 &234015748
 GameObject:
   m_ObjectHideFlags: 0
@@ -451,6 +496,7 @@ GameObject:
   - component: {fileID: 234015752}
   - component: {fileID: 234015751}
   - component: {fileID: 234015750}
+  - component: {fileID: 234015753}
   m_Layer: 0
   m_Name: red (2)
   m_TagString: place
@@ -545,6 +591,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 234015748}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &234015753
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 234015748}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: red
 --- !u!1 &269290854
 GameObject:
   m_ObjectHideFlags: 0
@@ -557,6 +617,7 @@ GameObject:
   - component: {fileID: 269290857}
   - component: {fileID: 269290856}
   - component: {fileID: 269290855}
+  - component: {fileID: 269290859}
   m_Layer: 0
   m_Name: b_yellow
   m_TagString: Player
@@ -650,6 +711,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &269290859
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 269290854}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 234015753}
+  ballcolor: yellow
 --- !u!1 &273574514
 GameObject:
   m_ObjectHideFlags: 0
@@ -662,8 +737,9 @@ GameObject:
   - component: {fileID: 273574517}
   - component: {fileID: 273574516}
   - component: {fileID: 273574515}
+  - component: {fileID: 273574519}
   m_Layer: 0
-  m_Name: b_yellow
+  m_Name: b_white
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -710,7 +786,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91b9c9f9ea4d2cb468074ed823536e11, type: 2}
+  - {fileID: 2100000, guid: cc8e2864ae9c0a04d928dbd2db8ec424, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -755,6 +831,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &273574519
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 273574514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 1779586734}
+  ballcolor: white
 --- !u!1 &285997798
 GameObject:
   m_ObjectHideFlags: 0
@@ -767,6 +857,7 @@ GameObject:
   - component: {fileID: 285997801}
   - component: {fileID: 285997800}
   - component: {fileID: 285997799}
+  - component: {fileID: 285997803}
   m_Layer: 0
   m_Name: b_white
   m_TagString: Player
@@ -860,6 +951,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &285997803
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 285997798}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 307549919}
+  ballcolor: white
 --- !u!1 &307549914
 GameObject:
   m_ObjectHideFlags: 0
@@ -872,6 +977,7 @@ GameObject:
   - component: {fileID: 307549918}
   - component: {fileID: 307549917}
   - component: {fileID: 307549916}
+  - component: {fileID: 307549919}
   m_Layer: 0
   m_Name: White (2)
   m_TagString: place
@@ -966,6 +1072,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 307549914}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &307549919
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 307549914}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: white
 --- !u!1 &440370738
 GameObject:
   m_ObjectHideFlags: 0
@@ -978,6 +1098,7 @@ GameObject:
   - component: {fileID: 440370742}
   - component: {fileID: 440370741}
   - component: {fileID: 440370740}
+  - component: {fileID: 440370743}
   m_Layer: 0
   m_Name: red
   m_TagString: place
@@ -1072,6 +1193,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 440370738}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &440370743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 440370738}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: red
 --- !u!1 &441818911
 GameObject:
   m_ObjectHideFlags: 0
@@ -1115,6 +1250,7 @@ GameObject:
   - component: {fileID: 635045463}
   - component: {fileID: 635045462}
   - component: {fileID: 635045461}
+  - component: {fileID: 635045465}
   m_Layer: 0
   m_Name: B_Red
   m_TagString: Player
@@ -1208,6 +1344,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &635045465
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 635045460}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 93566606}
+  ballcolor: red
 --- !u!1 &726484220
 GameObject:
   m_ObjectHideFlags: 0
@@ -1220,6 +1370,7 @@ GameObject:
   - component: {fileID: 726484224}
   - component: {fileID: 726484223}
   - component: {fileID: 726484222}
+  - component: {fileID: 726484225}
   m_Layer: 0
   m_Name: yellow
   m_TagString: place
@@ -1314,6 +1465,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 726484220}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &726484225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 726484220}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: yellow
 --- !u!1 &739861380
 GameObject:
   m_ObjectHideFlags: 0
@@ -1460,8 +1625,9 @@ GameObject:
   - component: {fileID: 1018031897}
   - component: {fileID: 1018031896}
   - component: {fileID: 1018031895}
+  - component: {fileID: 1018031899}
   m_Layer: 0
-  m_Name: b_yellow
+  m_Name: b_red
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1508,7 +1674,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91b9c9f9ea4d2cb468074ed823536e11, type: 2}
+  - {fileID: 2100000, guid: 7b127d707c19d6d4cb4823b3498e2354, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -1553,6 +1719,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1018031899
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1018031894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 1554474004}
+  ballcolor: red
 --- !u!1 &1122790502
 GameObject:
   m_ObjectHideFlags: 0
@@ -1565,6 +1745,7 @@ GameObject:
   - component: {fileID: 1122790506}
   - component: {fileID: 1122790505}
   - component: {fileID: 1122790504}
+  - component: {fileID: 1122790507}
   m_Layer: 0
   m_Name: red (1)
   m_TagString: place
@@ -1659,6 +1840,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1122790502}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1122790507
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1122790502}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: red
 --- !u!1 &1182729168
 GameObject:
   m_ObjectHideFlags: 0
@@ -1824,6 +2019,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1354917590}
+  - component: {fileID: 1354917591}
   m_Layer: 0
   m_Name: Level1
   m_TagString: Untagged
@@ -1849,6 +2045,19 @@ Transform:
   - {fileID: 1309333445}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1354917591
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1354917589}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 422515beac587d94093c971286d658ca, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  WrongsBalls: 6
 --- !u!1 &1383294579
 GameObject:
   m_ObjectHideFlags: 0
@@ -2092,6 +2301,7 @@ GameObject:
   - component: {fileID: 1554474003}
   - component: {fileID: 1554474002}
   - component: {fileID: 1554474001}
+  - component: {fileID: 1554474004}
   m_Layer: 0
   m_Name: White (3)
   m_TagString: place
@@ -2186,6 +2396,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1554473999}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1554474004
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1554473999}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: white
 --- !u!1 &1637301567
 GameObject:
   m_ObjectHideFlags: 0
@@ -2229,8 +2453,9 @@ GameObject:
   - component: {fileID: 1685702109}
   - component: {fileID: 1685702108}
   - component: {fileID: 1685702107}
+  - component: {fileID: 1685702111}
   m_Layer: 0
-  m_Name: B_yellow
+  m_Name: B_white
   m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -2277,7 +2502,7 @@ MeshRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91b9c9f9ea4d2cb468074ed823536e11, type: 2}
+  - {fileID: 2100000, guid: cc8e2864ae9c0a04d928dbd2db8ec424, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -2322,6 +2547,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1685702111
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1685702106}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 194986349}
+  ballcolor: white
 --- !u!1 &1701293321
 GameObject:
   m_ObjectHideFlags: 0
@@ -2334,6 +2573,7 @@ GameObject:
   - component: {fileID: 1701293324}
   - component: {fileID: 1701293323}
   - component: {fileID: 1701293322}
+  - component: {fileID: 1701293326}
   m_Layer: 0
   m_Name: B_yellow
   m_TagString: Player
@@ -2427,6 +2667,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1701293326
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1701293321}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 440370743}
+  ballcolor: yellow
 --- !u!1 &1779586729
 GameObject:
   m_ObjectHideFlags: 0
@@ -2439,6 +2693,7 @@ GameObject:
   - component: {fileID: 1779586733}
   - component: {fileID: 1779586732}
   - component: {fileID: 1779586731}
+  - component: {fileID: 1779586734}
   m_Layer: 0
   m_Name: yellow (1)
   m_TagString: place
@@ -2533,6 +2788,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1779586729}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1779586734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1779586729}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 0
+  placedColor: yellow
 --- !u!1 &1819592803
 GameObject:
   m_ObjectHideFlags: 0
@@ -2576,6 +2845,7 @@ GameObject:
   - component: {fileID: 1851680659}
   - component: {fileID: 1851680658}
   - component: {fileID: 1851680657}
+  - component: {fileID: 1851680660}
   m_Layer: 0
   m_Name: red (3)
   m_TagString: place
@@ -2670,6 +2940,20 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1851680655}
   m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1851680660
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851680655}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0710b06206966264ca07483fa4897319, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isEmptySpace: 1
+  placedColor: red
 --- !u!1 &1909925199
 GameObject:
   m_ObjectHideFlags: 0
@@ -2775,6 +3059,7 @@ GameObject:
   - component: {fileID: 2137890901}
   - component: {fileID: 2137890900}
   - component: {fileID: 2137890899}
+  - component: {fileID: 2137890903}
   m_Layer: 0
   m_Name: B_Red
   m_TagString: Player
@@ -2868,6 +3153,20 @@ Transform:
   m_Children: []
   m_Father: {fileID: 1309333445}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2137890903
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2137890898}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 86020476e93615a44b2c4b292a90221b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ballplacedobj: {fileID: 1122790507}
+  ballcolor: red
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
